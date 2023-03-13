@@ -86,3 +86,21 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 75px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .weather-app {
+    margin-top: 35px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+}
